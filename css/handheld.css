@@ -1,0 +1,66 @@
+@media screen and (max-width:769px) {
+    #logo {
+        margin-bottom: 2rem;
+    }
+    #logo img {
+        height: 5rem;
+        width: 7rem;
+    }
+    #menu {
+        position: absolute;
+        display:none;
+        margin: 1rem;
+        padding: 2rem;
+        background-color: rgba(189, 146, 253, 0.8);
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mobileNavbar{
+        padding: 1rem 0;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color:rgba(0, 0, 0, 0.918);
+    }
+    .mobileNavbar span{
+        color: white;
+    }
+    #mobileLogo{
+        height: 4rem;
+        width: 4rem;
+        background-color: rgba(255, 255, 255, 0.85);
+        border-radius:10px;
+    }
+    #mobileNavCross{
+        position: absolute;
+        top: 0;
+        right:0;
+        padding: 1rem;
+        color:white;
+    }
+
+    #hamburgerButton{
+        color: white;
+    }
+
+    
+
+    .displayBlock{
+        display:block !important;
+    }
+
+    
+
+    #nav ul {
+        padding: 1rem 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #nav ul li {
+        padding: 1rem;
+        width: 85vw;
+    }
+}

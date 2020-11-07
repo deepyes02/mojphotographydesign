@@ -1,0 +1,36 @@
+@media screen and (min-width:769px) {
+    #menu {
+        position: absolute;
+        justify-content: space-around;
+        align-items: center;
+        justify-items: center;
+    }
+    #logo img {
+        height: 5rem;
+        width: 7rem;
+        background-color: rgba(255, 255, 255, 0.583);
+        border-radius: 10px;
+    }
+    #logo span {
+        font-size: 0.8rem;
+    }
+    #nav ul {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    #nav ul li {
+        padding: 0.6rem 0.5rem;
+    }
+    #nav ul li a {
+        font-size: 0.8rem;
+        margin: 0rem 0.5rem;
+        padding: 0 0.8rem;
+    }
+    #mobileNavCross{
+        display:none;
+    }
+    .mobileNavbar{
+        display:none;
+    }
+}
